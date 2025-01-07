@@ -255,9 +255,11 @@ body {
     border-radius: 0 0 0.25rem 0.25rem;
     display: none;
     top: 100%;
-    left: 0;
-    min-width: 100%;
+    left: auto;
+    right: 0;
+    min-width: max-content;
     position: absolute;
+    white-space: nowrap;
   }
 
   .navbar-dropdown .navbar-item {
